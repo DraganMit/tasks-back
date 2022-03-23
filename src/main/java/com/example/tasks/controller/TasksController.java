@@ -60,7 +60,7 @@ public class TasksController {
         tasksService.deleteTask(id);
     }
 
-    @GetMapping("")
+    @GetMapping
     public String hello() {
         return "Hello";
     }
